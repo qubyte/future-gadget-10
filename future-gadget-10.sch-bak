@@ -660,4 +660,21 @@ Text GLabel 8150 4750 0    50   Input ~ 0
 GND0
 Text GLabel 7300 3150 2    50   Input ~ 0
 GND0
+$Comp
+L Switch:SW_Push SW0
+U 1 1 631E6EE6
+P 8450 3150
+F 0 "SW0" V 8404 3298 50  0000 L CNN
+F 1 "SW_Push" V 8495 3298 50  0000 L CNN
+F 2 "" H 8450 3350 50  0001 C CNN
+F 3 "~" H 8450 3350 50  0001 C CNN
+	1    8450 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 8450 3350 3    50   Input ~ 0
+RST
+Text GLabel 7300 3250 2    50   Input ~ 0
+RST
+Text GLabel 8450 2950 1    50   Input ~ 0
+GND
 $EndSCHEMATC
